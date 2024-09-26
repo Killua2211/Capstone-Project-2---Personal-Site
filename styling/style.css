@@ -1,0 +1,125 @@
+.head-bg-color {
+  background-color: #000000;
+}
+
+.foot-bg-color {
+  background-color: #faf6f0;
+}
+
+.header-font {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ba68c8;
+  font-size: 2.5rem;
+  height: 20vh;
+}
+
+.pfp-pic {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 500;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.dots {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.p-skills {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+h5 {
+  color: lightslategray;
+  font-weight: 700;
+}
+
+.p-contact {
+  font-size: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.p-describition {
+  font-size: 1.5rem;
+}
+
+.contact-btn {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(233, 96, 96);
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #e8001f;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: lightcoral;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header-font {
+    font-size: 2rem;
+  }
+
+  .p-describition,
+  .p-skills,
+  .p-contact {
+    font-size: 0.9rem;
+  }
+
+  .dots {
+    font-size: 1.5rem;
+  }
+
+  .contact-btn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-font {
+    font-size: 1.5rem;
+  }
+
+  .p-describition,
+  .p-skills,
+  .p-contact {
+    font-size: 0.8rem;
+  }
+}
